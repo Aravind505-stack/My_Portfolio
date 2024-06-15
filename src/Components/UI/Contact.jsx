@@ -35,61 +35,60 @@ const Contact = () => {
   };
 
   return (
-    <section id="Contact" className="bg-gr1 text-gray-900 py-20">
-      <div className="container mx-auto flex flex-col gap-16 lg:flex-row lg:gap-0 items-center">
-        <div className="space-y-10 lg:space-y-20 w-full lg:w-1/2 flex flex-col">
+    <section id="Contact" className="bg-gray-100 text-gray-900 py-20">
+      <div className="container mx-auto px-6 lg:px-0 flex flex-col lg:flex-row lg:gap-16 items-center">
+        <div className="lg:w-1/2">
           <h2 className="text-3xl font-bold mb-6 text-gray-700">
             Let's discuss
             <br />
-            on something <span className="text-blue">cool</span> together
+            something <span className="text-blue">cool</span> together
           </h2>
-          <div>
-            <p>I'm interested in....</p>
-            <ul className="flex flex-wrap gap-4 mt-4 max-w-96">
-              <li className="bg-gray-200 text-gray-900 p-2 rounded">
-                Ecommerce Website
-              </li>
-              <li className="bg-gray-200 text-gray-900 p-2 rounded">
-                Landing Page
-              </li>
-              <li className="bg-gray-200 text-gray-900 p-2 rounded">Portfolio</li>
-              <li className="bg-gray-200 text-gray-900 p-2 rounded">
-                Blog Website
-              </li>
-              <li className="bg-gray-200 text-gray-900 p-2 rounded">
-                Responsive Design
-              </li>
-            </ul>
-          </div>
+          <p className="hidden lg:block pb-5">I'm interested in...</p>
+          <ul className="hidden lg:flex flex-wrap gap-5 mb-6 lg:mb-0">
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Ecommerce Website
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Landing Page
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">Portfolio</li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Blog Website
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Responsive Design
+            </li>
+          </ul>
         </div>
-        <form className="space-y-5 w-full lg:w-1/2" onSubmit={handleSubmit}>
-          <div>
+        <form className="lg:w-1/2 max-w-md w-full" onSubmit={handleSubmit}>
+          <div className="mb-4">
             <label className="block">Your Name</label>
             <input
               type="text"
               name="name"
-              className="w-full p-3 border border-gray-300 rounded mt-2"
+              className="w-full p-3 border border-gray-300 rounded"
               value={formData.name}
               onChange={handleChange}
               required
             />
           </div>
-          <div>
+          <div className="mb-4">
             <label className="block">Your Email</label>
             <input
               type="email"
               name="email"
-              className="w-full p-3 border border-gray-300 rounded mt-2"
+              className="w-full p-3 border border-gray-300 rounded"
               value={formData.email}
               onChange={handleChange}
               required
             />
           </div>
-          <div>
+          <div className="mb-4">
             <label className="block">Your Message</label>
             <textarea
               name="message"
-              className="w-full p-2 border border-gray-300 rounded mt-2"
+              className="w-full p-2 border border-gray-300 rounded"
+              rows="4"
               value={formData.message}
               onChange={handleChange}
               required
@@ -97,11 +96,29 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="bg-blue text-white px-4 py-3 rounded w-full"
+            className="bg-blue text-white px-4 py-3 rounded w-full hover:bg-blue-700 transition-colors duration-300"
           >
             Submit
           </button>
         </form>
+        <div className="lg:hidden w-full mt-6">
+          <p className="mb-4 text-center">I'm interested in...</p>
+          <ul className="flex flex-wrap gap-2 justify-center">
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Ecommerce Website
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Landing Page
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">Portfolio</li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Blog Website
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Responsive Design
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
