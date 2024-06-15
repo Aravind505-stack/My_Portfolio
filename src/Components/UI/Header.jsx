@@ -6,8 +6,9 @@ import Logo from '../../Images/Responsive_Web_Design_Logo.png'
 const navigation = [
   { name: "Home", href: "#", current: true },
   { name: "About", href: "#About", current: false },
-  { name: "Projects", href: "#Projects", current: false },
-  { name: "Contact", href: "#Contact", current: false },
+  { name: "Experience", href: "#experience", current: false },
+  { name: "Positions", href: "#projects", current: false },
+ 
 ];
 
 export default function Example() {

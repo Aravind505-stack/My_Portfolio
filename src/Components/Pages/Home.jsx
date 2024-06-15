@@ -15,7 +15,11 @@ const Home = () => {
       <main className="container mx-auto px-6">
         <Hero />
         <About />
+        <Experience />
         <Projects />
+       
+        <Education />
+      
        
       </main>
       <Contact />

@@ -3,53 +3,35 @@ import React from 'react';
 const experiences = [
   {
     company: "Hyno",
-    role: "Frontend Developer",
-    duration: "Jul. 2022 – Present",
+    role: "Software Developer",
+    duration: "April. 2023 – Present",
     location: "Hyderbad",
     tasks: [
-      "Developed the entire frontend application using React, React Storybook, and Tailwind CSS.",
-      "Ensured the website was fully responsive, adapting to various devices and screen sizes based on company requirements.",
-      "Implemented a front design system, including buttons, fonts, and colors, to maintain consistent typography and design across the website.",
-      "Explored and utilized Tailwind CSS to enhance the website’s design and responsiveness.",
-      "Demonstrated familiarity with RESTful APIs and their integration.",
-      "Applied knowledge of modern authorization mechanisms, such as JSON Web Token (JWT)."
+      "Proficient in crafting responsive and visually captivating web applications through collaborative efforts with cross-functional teams.",
+      "Demonstrated success in optimizing web assets for maximum visibility and user experience.",
+      "Utilized HTML5, CSS3, BOOTSTRAP and JAVASCRIPT to build structured and semantic markup, applying best practices for accessibility and search engine optimization (SEO).",
+      "Leveraged the GSAP library to create dynamic and engaging animations, enhancing user interaction and experience across application.",
+      "Skill Set : Html, CSS, JavaScript, Bootstrap, Search Engine Optimization (SEO), GSAP."
     ]
   },
   {
-    company: "Hyno",
-    role: "Associate Software Engineer",
-    duration: "Jul. 2024 – Present",
-    location: "Hyderbad",
+    company: "MomentumX",
+    role: "Full Stack Developer",
+    duration: "April. 2023 – Nov. 2023",
+    location: "Remote(UK)",
     tasks: [
-      "Developed the entire frontend application for the website using HTML, CSS, Bootstrap, and JavaScript.",
-      "Ensured the website was fully responsive, adapting to different devices and screen sizes, based on company requirements.",
-      "Implemented SEO best practices, writing code with appropriate SEO tags.",
-      "Developed consistent typography and maintained design consistency across the website.",
-      "Significantly increased the website’s SEO score from a very low initial score to 95%.",
-      "Explored and utilized Bootstrap to enhance the website’s design and responsiveness.",
-      "Utilized REST APIs to display dynamic data on the website.",
-      "Optimized the code for better performance and maintainability."
-    ]
-  },
-  {
-    company: "Plover",
-    role: "Frontend Developer",
-    duration: "Feb. 2023 – Feb. 2024",
-    location: "Hyderbad",
-    tasks: [
-      "Developed the entire frontend application for a remote jobs website using Next.js, ensuring a seamless and responsive user interface.",
-      "Created and implemented filters to enhance the user experience, allowing for efficient job searching and sorting.",
-      "Utilized REST APIs to fetch, edit, and update data from the backend.",
-      "Implemented a CV generator feature, enabling users to create and download professional resumes.",
-      "Collaborated with backend developers to integrate frontend with backend services.",
-      "Developed authentication features, including Google OAuth and manual login, ensuring secure access for users."
+      "Leading front-end development efforts for a website project, leveraging HTML, CSS, and JavaScript to create an engaging and intuitive user interface.",
+      "Collaborating closely with designers and back-end developers to ensure seamless integration of front-end components with the overall website architecture.",
+      "Utilizing Docsify, a documentation site generator, to create comprehensive and interactive documentation for the website, enhancing the user experience and facilitating knowledge sharing among team members and users.",
+      "Proficient in AWS, with hands-on experience in S3 bucket management and module deployment for project implementation.",
+      "Skill Set: Html, CSS, JavaScript, ReactJS, Docsify, AR Technology, Figma."
     ]
   }
 ];
 
 const Experience = () => {
   return (
-    <section className="p-4">
+    <section id="experience" className="p-4">
       <h2 className="text-2xl font-bold mb-4">Experience</h2>
       {experiences.map((exp, index) => (
         <div key={index} className="mb-6">
