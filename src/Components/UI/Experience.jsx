@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "Hyno",
     role: "Software Developer",
-    duration: "April. 2023 – June 2024",
+    duration: "January. 2023 – June 2024",
     location: "Hyderbad",
     tasks: [
       "Proficient in crafting responsive and visually captivating web applications through collaborative efforts with cross-functional teams.",
@@ -12,7 +12,7 @@ const experiences = [
       "Utilized HTML5, CSS3, BOOTSTRAP and JAVASCRIPT to build structured and semantic markup, applying best practices for accessibility and search engine optimization (SEO).",
       "• Integrated CRM systems to enhance customer relationship management, leading to improved client interactions and data organization.",
       "Leveraged the GSAP library to create dynamic and engaging animations, enhancing user interaction and experience across application.",
-      "Skill Set : Html, CSS, JavaScript, Bootstrap, Search Engine Optimization (SEO), GSAP."
+      "Skill Set : Html, CSS, JavaScript, Bootstrap, ReactJS, Search Engine Optimization (SEO), GSAP."
     ]
   },
   {
