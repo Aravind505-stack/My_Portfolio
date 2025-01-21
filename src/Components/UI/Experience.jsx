@@ -15,6 +15,23 @@ const experiences = [
       "Skill Set : Html, CSS, JavaScript, Bootstrap, ReactJS, Search Engine Optimization (SEO), GSAP."
     ]
   },
+
+  {
+    company: "The Roar and Howl Company",
+    role: "Wordpress Developer",
+    duration: "December 2023",
+    location: "Hyderbad",
+    tasks: [
+      "Developed a fully functional e-commerce website for The Roar and Howl Company using WordPress and WooCommerce, providing an intuitive and seamless shopping experience.",
+      "Integrated secure payment gateways (PayPal, Stripe) and optimized checkout for seamless transactions.",
+      "Customized themes, plugins, and mobile-friendly design, improving site performance and user engagement.",
+      "Applied SEO strategies to boost organic traffic and improve site rankings on search engines.",
+      "Customized themes and plugins using HTML, CSS, and JavaScript to achieve a unique and visually appealing design tailored to the brand.",
+      "Utilized WebSpaceKit Hosting to ensure optimal performance, reliability, and scalability for WordPress-based e-commerce websites, enhancing user experience and site speed.",
+      "Skill Set : Html, CSS, JavaScript, Wordpress, Search Engine Optimization (SEO), WebSpaceKit."
+    ]
+  },
+
   {
     company: "MomentumX",
     role: "Full Stack Developer",
