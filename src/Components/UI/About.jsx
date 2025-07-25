@@ -28,7 +28,7 @@ const About = () => {
             Hey, my name is Aravind Busarapu, and I'm a Frontend Developer. My passion is to create and develop clean UI/UX for my users.
           </p>
           <p className="mt-4 text-xl text-gray-500">
-            My main stack currently includes React.js, Python, Docsify, Bootstrap, CSS, and JavaScript.
+            My main stack currently includes JavaScript, React.js, TypeScript, GraphQL, SQL, Python.
           </p>
         </div>
       </div>
