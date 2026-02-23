@@ -7,17 +7,57 @@ const experiences = [
     duration: "Feb 2025 - Present ",
     location: "Hyderabad",
     tasks: [
-      "Led the frontend development of a healthcare platform, focusing on complex, form-driven workflows and responsive user experiences.",
-      "Built dynamic and validated interfaces using React, Material-UI (MUI), React Hook Form, and Zod, ensuring seamless state management and robust error handling.",
-      "Integrated GraphQL APIs using Apollo Client, collaborating closely with backend teams to streamline data flow and improve payload efficiency.",
-      "Solved diverse frontend challenges including advanced validations, conditional rendering, responsive layout issues, and API handling.",
-      "Actively debugged, tested, and optimized features using browser dev tools and local test environments, improving feature stability and delivery speed.",
-      "Gained practical exposure to backend processes involving PostgreSQL and TypeORM, strengthening frontend-backend coordination."
+      "Developed and maintained complex, form-driven user interfaces using React and modern UI libraries, focusing on usability, validation, and performance.",
+      "Implemented state management and structured data flow, handling conditional rendering, dynamic forms, and responsive layouts.",
+      "Integrated APIs and collaborated closely with backend teams to ensure efficient data exchange and seamless frontend–backend integration.",
+      "Worked with databases and backend logic to support application workflows and data consistency.",
+      "Contributed to Next.js-based implementations and internal applications, following scalable and maintainable frontend practices.",
+      "Gained hands-on experience with Salesforce development, building components using Lightning Web Components (LWC) and implementing business logic with Apex."
     ]
   },
+
+  
+
+   {
+    company: "Naari BY Manasa (naaribymanasa.com)",
+    role: "Freelance WordPress Developer",
+    duration: "Nov 2025",
+    location: "Hyderabad (Remote)",
+    tasks: [
+      "Built and delivered a complete eCommerce fashion website for a real client using WordPress and WooCommerce, handling the project end-to-end from design to deployment and client training.",
+      "Implemented a scalable product management system allowing the client to easily manage catalog, pricing, and discounts",
+      "Designed structured navigation architecture (menus, footer layout, internal linking) to improve user experience.",
+      "Implemented dynamic pricing and discount flows using WooCommerce best practices",
+      "Integrated social and communication channels (WhatsApp, Instagram, Facebook, YouTube) to improve user engagement",
+       "Optimized website performance using caching, image optimization, and frontend best practices",
+      "Applied SEO fundamentals (metadata, structure, indexing readiness) using RankMath",
+      "Skill Set : Html, CSS,  Search Engine Optimization (SEO), WordPress, WebSpaceKit"
+    ]
+  },
+
+    {
+    company: "ToothBliss Dental care (toothblissdentalcare.com)",
+    role: "Freelance WordPress Developer",
+    duration: "Aug 2025 - Oct 2025",
+    location: "Hyderabad (Remote)",
+    tasks: [
+      "Designed and implemented a responsive multi-page website using WordPress CMS and modern UI structure.",
+      "Configured domain-based email setup through hosting provider for professional communication.",
+      "Customized theme layout including header, footer, reusable content sections, and service containers.",
+      "Implemented SEO-friendly structure, optimized page hierarchy, and performance-focused asset loading.",
+       "Optimized website performance using caching, image optimization, and frontend best practices",
+      "Built modular homepage sections for services, doctor profile, testimonials, and contact flow.",
+      "Configured hosting environment, domain mapping, and production deployment.",
+      "Ensured cross-device responsiveness and accessibility compliance.",
+      "Skill Set : Html, CSS,  Search Engine Optimization (SEO), WordPress, WebSpaceKit"
+    ]
+  },
+
+
+
   {
     company: "PKC Laundries (pkclaundries.com)",
-    role: "Freelance Web Developer",
+    role: "Freelance WordPress Developer",
     duration: "Jan 2025 - Feb 2025",
     location: "Virtual",
     tasks: [

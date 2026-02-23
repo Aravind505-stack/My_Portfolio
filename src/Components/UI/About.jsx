@@ -25,11 +25,9 @@ const About = () => {
           </h3>
 
           <p className="mt-5 text-xl text-gray-500">
-            Hey, my name is Aravind Busarapu, and I'm a Frontend Developer. My passion is to create and develop clean UI/UX for my users.
+           Hi, I’m Aravind Busarapu, a Frontend Developer based in Hyderabad, India. I build responsive and user-friendly web applications using React.js, JavaScript, and TypeScript. I also have experience working with Salesforce technologies like LWC, Apex, and integrations, along with delivering multiple freelance projects using WordPress. I’m passionate about creating clean UI/UX and writing scalable, maintainable code.
           </p>
-          <p className="mt-4 text-xl text-gray-500">
-            My main stack currently includes JavaScript, React.js, TypeScript, GraphQL, SQL, Python.
-          </p>
+         
         </div>
       </div>
       <Skills />

@@ -3,16 +3,16 @@ import React from "react";
 const skills = [
   "HTML",
   "CSS",
-  "React.js",
+   "Bootstrap",
   "JavaScript",
-  "Bootstrap",
+  "React.js",
   "TypeScript",
   "GraphQL",
-  "Python",
-  "PostgreSQL",
-  "TypeORM",
+  "SQL",
   "SEO",
-  "Docsify"
+  "Docsify",
+  "Wordpress",
+  "Salesforce LWC, Apex Integrations",
 ];
 
 const Skills = () => {
