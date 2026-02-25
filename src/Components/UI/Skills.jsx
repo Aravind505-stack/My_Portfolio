@@ -6,11 +6,10 @@ const skills = [
    "Bootstrap",
   "JavaScript",
   "React.js",
-  "TypeScript",
-  "GraphQL",
+  "Node.js",
+  "MERN Stack",
   "SQL",
   "SEO",
-  "Docsify",
   "Wordpress",
   "Salesforce LWC, Apex Integrations",
 ];
