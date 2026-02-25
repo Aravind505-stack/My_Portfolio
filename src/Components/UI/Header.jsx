@@ -17,11 +17,11 @@ export default function Example() {
     <header className="absolute inset-x-0 top-0 z-50 sticky shadow bg-white">
       <nav className="container mx-auto flex items-center justify-between py-3 px-6">
         <div className="flex lg:flex-1">
-          <a href="#" className="flex items-center gap-3">
+        <a href="/" className="flex items-center gap-3">
             <img
               className="h-12 w-auto"
               src={Logo}
-              alt=""
+              alt="Aravind Busarapu Logo"
             />
             <h2 className="text-2xl font-extrabold text-gray-900 uppercase">Aravind Busarapu</h2>
           </a>
