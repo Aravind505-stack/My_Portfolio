@@ -11,7 +11,7 @@ const skills = [
   "SQL",
   "SEO",
   "Wordpress",
-  "Salesforce LWC, Apex Integrations",
+  "Salesforce (LWC, Apex, API Integrations)",
 ];
 
 const Skills = () => {
