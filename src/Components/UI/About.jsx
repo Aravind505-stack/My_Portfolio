@@ -19,13 +19,13 @@ const About = () => {
           </h2>
 
           <h3 className="text-3xl font-bold mb-3 text-gray-800">
-            Front-end Developer
+            WordPress Developer, SEO & Meta Ads Specialist
             <br />
             based in Hyderabad, India 📍
           </h3>
 
           <p className="mt-5 text-xl text-gray-500">
-           Hi, I’m Aravind Busarapu, a Frontend Developer based in Hyderabad, India.  I build scalable and responsive web applications using React.js and TypeScript,with hands-on experience in Salesforce LWC and Apex for enterprise solutions. I’ve also delivered multiple freelance projects using WordPress. I’m passionate about creating clean UI/UX and writing scalable, maintainable code.
+            Hi, I'm Aravind Busarapu, a WordPress Developer, SEO & Meta Ads Specialist based in Hyderabad, India. I build responsive, performance-optimized websites using WordPress, WooCommerce, and modern web technologies like HTML, CSS, Bootstrap, and JavaScript. I've delivered multiple end-to-end client projects — from design to deployment — with a strong focus on SEO (on-page, technical), meta optimization, search visibility using RankMath and Yoast SEO, and running targeted Meta (Facebook & Instagram) Ads campaigns to drive traffic and conversions.
           </p>
          
         </div>

@@ -3,15 +3,19 @@ import React from "react";
 const skills = [
   "HTML",
   "CSS",
-   "Bootstrap",
+  "Bootstrap",
   "JavaScript",
-  "React.js",
-  "Node.js",
-  "MERN Stack",
-  "SQL",
-  "SEO",
-  "Wordpress",
-  "Salesforce (LWC, Apex, API Integrations)",
+  "WordPress",
+  "WooCommerce",
+  "Elementor",
+  "SEO (On-Page & Technical)",
+  "RankMath",
+  "Yoast SEO",
+  "Meta Tags & Schema Markup",
+  "Site Speed Optimization",
+  "Bluehost",
+  "WebSpaceKit",
+  "Cloudflare CDN",
 ];
 
 const Skills = () => {

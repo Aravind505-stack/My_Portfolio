@@ -1,8 +1,7 @@
 import React from "react";
 import ProfileImg from "../../Images/p3.jpg";
-import ReactLogo from '../../Images/React.png';
+import WordPressLogo from '../../Images/wordpress-logo.png';
 import Javascript from '../../Images/js.png';
-import Tailwind from '../../Images/tailwind.png';
 import HTML from '../../Images/free-html-5-1-1175208.png';
 import CSS from '../../Images/css-hd-logo.png';
 import Bootstrap from '../../Images/Bootstrap_logo.png';
@@ -25,12 +24,12 @@ const Hero = () => {
     <section className="py-28 min-h-screen">
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="text-center lg:text-left">
-          <h2 className="text-2xl font-semibold text-gray-500">Hello 👋 ,</h2>
+          <h2 className="text-2xl font-semibold text-gray-500">Hello 👋,</h2>
           <h1 className="text-6xl mt-2 font-extrabold text-blue">
-            I'm a web Developer.
+            I'm a WordPress Developer.
           </h1>
           <p className="mt-3 text-3xl font-semibold text-gray-700">
-            I build things for the web.
+            WordPress · SEO · Meta Ads
           </p>
           <div className="flex flex-wrap justify-center lg:justify-start space-x-4 mt-8">
             {SocialShareData.map((each, index) => (
@@ -58,26 +57,23 @@ const Hero = () => {
         <h2 className="text-xl text-center mb-8 font-bold text-gray-700">Tech Stack</h2>
         <div className="scroll-container">
           <div className="scroll-content gap-10 md:gap-20 xl:gap-32">
-            <img src={ReactLogo} alt="React" className="h-12" />
-            <img src={Javascript} alt="Javascript" className="h-12" />
-            <img src={Tailwind} alt="Tailwind" className="h-10" />
+            <img src={WordPressLogo} alt="WordPress" className="h-12" />
             <img src={HTML} alt="HTML" className="h-12" />
             <img src={CSS} alt="CSS" className="h-12" />
             <img src={Bootstrap} alt="Bootstrap" className="h-12" />
-            {/* Repeat content for infinite effect */}
-            <img src={ReactLogo} alt="React" className="h-12" />
             <img src={Javascript} alt="Javascript" className="h-12" />
-            <img src={Tailwind} alt="Tailwind" className="h-10" />
+            {/* Repeat content for infinite scroll effect */}
+            <img src={WordPressLogo} alt="WordPress" className="h-12" />
             <img src={HTML} alt="HTML" className="h-12" />
             <img src={CSS} alt="CSS" className="h-12" />
             <img src={Bootstrap} alt="Bootstrap" className="h-12" />
-            {/* Repeat content for infinite effect */}
-            <img src={ReactLogo} alt="React" className="h-12" />
             <img src={Javascript} alt="Javascript" className="h-12" />
-            <img src={Tailwind} alt="Tailwind" className="h-10" />
+            {/* Repeat content for infinite scroll effect */}
+            <img src={WordPressLogo} alt="WordPress" className="h-12" />
             <img src={HTML} alt="HTML" className="h-12" />
             <img src={CSS} alt="CSS" className="h-12" />
             <img src={Bootstrap} alt="Bootstrap" className="h-12" />
+            <img src={Javascript} alt="Javascript" className="h-12" />
           </div>
         </div>
       </div>

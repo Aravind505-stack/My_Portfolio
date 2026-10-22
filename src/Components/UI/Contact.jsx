@@ -46,17 +46,22 @@ const Contact = () => {
           <p className="hidden lg:block pb-5">I'm interested in...</p>
           <ul className="hidden lg:flex flex-wrap gap-5 mb-6 lg:mb-0">
             <li className="bg-gray-200 text-gray-900 p-2 rounded">
-              Ecommerce Website
+              WordPress Website
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              WooCommerce Store
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              SEO Audit
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Meta Ads
             </li>
             <li className="bg-gray-200 text-gray-900 p-2 rounded">
               Landing Page
             </li>
-            <li className="bg-gray-200 text-gray-900 p-2 rounded">Portfolio</li>
             <li className="bg-gray-200 text-gray-900 p-2 rounded">
               Blog Website
-            </li>
-            <li className="bg-gray-200 text-gray-900 p-2 rounded">
-              Responsive Design
             </li>
           </ul>
         </div>
@@ -105,17 +110,22 @@ const Contact = () => {
           <p className="mb-4 text-center">I'm interested in...</p>
           <ul className="flex flex-wrap gap-2 justify-center">
             <li className="bg-gray-200 text-gray-900 p-2 rounded">
-              Ecommerce Website
+              WordPress Website
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              WooCommerce Store
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              SEO Audit
+            </li>
+            <li className="bg-gray-200 text-gray-900 p-2 rounded">
+              Meta Ads
             </li>
             <li className="bg-gray-200 text-gray-900 p-2 rounded">
               Landing Page
             </li>
-            <li className="bg-gray-200 text-gray-900 p-2 rounded">Portfolio</li>
             <li className="bg-gray-200 text-gray-900 p-2 rounded">
               Blog Website
-            </li>
-            <li className="bg-gray-200 text-gray-900 p-2 rounded">
-              Responsive Design
             </li>
           </ul>
         </div>
