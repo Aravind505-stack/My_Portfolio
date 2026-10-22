@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const experiences = [
   {
@@ -80,13 +81,56 @@ const experiences = [
   },
 ];
 
+// Each card flips from rotateY(90deg) → rotateY(0deg) as it enters the viewport
+const flipVariants = {
+  hidden: {
+    opacity: 0,
+    rotateY: 90,
+    transformOrigin: 'left center',
+  },
+  visible: (i) => ({
+    opacity: 1,
+    rotateY: 0,
+    transformOrigin: 'left center',
+    transition: {
+      delay: i * 0.1,
+      duration: 0.7,
+      ease: [0.25, 0.46, 0.45, 0.94], // easeOutQuart — snappy flip
+    },
+  }),
+};
+
 const Experience = () => {
   return (
-    <section id="experience" className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Experience</h2>
+    <section id="experience" className="p-4" style={{ perspective: '1200px' }}>
+      {/* Heading fades in */}
+      <motion.h2
+        className="text-2xl font-bold mb-6"
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
+      >
+        Experience
+      </motion.h2>
+
       {experiences.map((exp, index) => (
-        <div key={index} className="mb-6">
-          <h3 className="text-xl font-semibold">
+        <motion.div
+          key={index}
+          className="mb-6 bg-white rounded-lg p-5 shadow-sm border border-gray-100"
+          custom={index}
+          variants={flipVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.15 }}
+          // Subtle lift on hover after the flip
+          whileHover={{
+            y: -4,
+            boxShadow: '0 12px 32px rgba(0,0,0,0.10)',
+            transition: { duration: 0.25 },
+          }}
+        >
+          <h3 className="text-xl font-semibold mb-2">
             {exp.role} at{" "}
             {exp.url ? (
               <a
@@ -101,12 +145,12 @@ const Experience = () => {
               exp.name
             )}
           </h3>
-          <ul className="list-disc list-inside">
+          <ul className="list-disc list-inside space-y-1">
             {exp.tasks.map((task, idx) => (
               <li key={idx}>{task}</li>
             ))}
           </ul>
-        </div>
+        </motion.div>
       ))}
     </section>
   );
