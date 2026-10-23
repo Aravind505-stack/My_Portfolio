@@ -3,6 +3,7 @@ import React from "react";
 import Experience from "../UI/Experience";
 import About from "../UI/About";
 import Education from "../UI/Education";
+import Certifications from "../UI/Certifications";
 // import Skills from "../UI/Skills";
 import Projects from "../UI/Projects";
 import Contact from "../UI/Contact";
@@ -16,6 +17,7 @@ const Home = () => {
         <Hero />
         <About />
         <Experience />
+        <Certifications />
         <Projects />
        
         <Education />
